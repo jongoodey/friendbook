@@ -11,7 +11,7 @@
 
 <% @statuses.each do |status| %>
   <tr>
-    <td><%= status.user.full_name %></td>
+    <td><%= status.user.full_name if user_signed_in? %></td>
     <td><%= status.content %></td>
     <td><%= link_to 'Show', status %></td>
     <td><%= link_to 'Edit', edit_status_path(status) %></td>
@@ -21,5 +21,3 @@
 </table>
 
 <br />
-<%= link_to 'New Status', new_status_path %>
-<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
