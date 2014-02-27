@@ -1,5 +1,11 @@
 jon:
   first_name: "Jonn"
   last_name: "Goodeyn"
+  email: "goodeyjon@hotmail.com"
+  profile_name: "jon"
+
+jon:
+  first_name: "Jason"
+  last_name: "Bloggs"
   email: "goodeyjon@asw3.com"
-  profile_name: "jonn"
+  profile_name: "jason"
